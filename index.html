@@ -4,8 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    
+    <h2>Score 10 points to win!</h2>
+    <div class="scoreContainer">
+        <h1 id = "playerScore"></h1>
+        <h1 id = "enemyScore"></h1>
+    </div>
+
+    <div class = "choiceContainer" id="choiceContainer">
+        <button class="handSign" id="rock" onclick="rockButton()">Rock</button>
+        <button class="handSign" id="paper" onclick="paperButton()">Paper</button>
+        <button class="handSign" id="scissors" onclick="scissorsButton()">Scissors</button>
+    </div>
+    <p id="choiceDisplay"></p>
+    <p id = "resultDisplay"></p>
+
+    <button id="playButton" onclick="playButton2()">Shoot!</button>
+    <button id="restartButton">Next round</button>
+
+    <h3 id="winnerMessage"></h3>
+
+    <button class="rematchBtn" id="rematchBtn" onclick="rematchGame()">Rematch?</button>
+
+    <script src="index.js"></script>
 </body>
 </html>

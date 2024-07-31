@@ -1,0 +1,100 @@
+html{
+    box-sizing: border-box;
+}
+
+html body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100dvh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3em;
+    background-color: #b0c4b1;
+    font-family: cursive;
+}
+
+button{
+    width: 120px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: #81b29a;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+}
+
+#choiceDisplay{
+    color: #344e41;
+}
+
+.handSign{
+    transition: all 0.5s ease-in-out;
+}
+
+.handSign:focus{
+    background-color: teal;
+    color: white;
+}
+
+#resultDisplay{
+    padding: 1em 3em;
+    background-color: #81b29a;
+    border-radius: 12px;
+}
+
+p{
+    margin: 0;
+}
+
+.choiceContainer{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+    border: 5px solid #81b29a;
+    background-color: #344e41;
+    border-radius: 8px;
+}
+
+.scoreContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    background-color: #81b29a;
+    border: 15px solid #344e41;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#playerScore{
+    background-color: #344e41;
+    padding: 20px 35px;
+}
+
+#enemyScore{
+    background-color: #344e41;
+    padding: 20px;
+}
+
+
+h2{
+    width: 100dvw;
+    text-align: center;
+    background-color: #344e41;
+    padding-block: 1em;
+    color: #81b29a;
+}
+
+.rematchBtn{
+    padding: 2.5em;
+    background-color: #344e41;
+    color: white;
+    width: auto;
+}
